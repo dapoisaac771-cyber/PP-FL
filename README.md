@@ -34,4 +34,3 @@ cd PP-FL
 pip install -r requirements.txt
 python data_prep.py --dataset mnist --num_clients 10 --noniid True
 python train_federated.py --config configs/default.yaml
-
